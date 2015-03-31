@@ -240,12 +240,12 @@ local function EventPopup(parent)
 	
 	minLevelSlider:SetPoint("RIGHT", dateText, "RIGHT")
 	minLevelSlider:SetPoint("BOTTOMLEFT", levelCheck, "CENTERLEFT", 248, 0)
-	minLevelSlider:SetRange(1, 60)
+	minLevelSlider:SetRange(1, 65)
 	minLevelSlider:SetVisible(false)
 	
 	maxLevelSlider:SetPoint("RIGHT", dateText, "RIGHT")
 	maxLevelSlider:SetPoint("TOPLEFT", levelCheck, "CENTERLEFT", 248, 0)
-	maxLevelSlider:SetRange(1, 60)
+	maxLevelSlider:SetRange(1, 65)
 	maxLevelSlider:SetVisible(false)
 	
 	squadCheck:SetPoint("TOPLEFT", levelCheck, "BOTTOMLEFT", 0, 55)
@@ -410,7 +410,7 @@ local function EventPopup(parent)
 	
 	function popup:SetData(eventID, eventData)
 		minLevelSlider:SetPosition(1)
-		maxLevelSlider:SetPosition(60)
+		maxLevelSlider:SetPosition(65)
 		ResetSquadContainer()
 
 		categoryDropdown:SetSelectedKey(eventData.category or minCategory)
@@ -430,7 +430,7 @@ local function EventPopup(parent)
 		if eventData.restrictLevel then
 			levelCheck:SetChecked(true)
 			minLevelSlider:SetPosition(eventData.restrictLevel[1] or 1)
-			maxLevelSlider:SetPosition(eventData.restrictLevel[2] or 60)
+			maxLevelSlider:SetPosition(eventData.restrictLevel[2] or 65)
 		else
 			levelCheck:SetChecked(false)
 		end

@@ -106,13 +106,13 @@ local function BatchAssignPopup(parent)
 	
 	minLevelSlider:SetPoint("CENTERLEFT", minLevelTitle, "CENTERLEFT", offset, -2)
 	minLevelSlider:SetPoint("RIGHT", rightAnchor, "RIGHT")
-	minLevelSlider:SetRange(1, 60)
+	minLevelSlider:SetRange(1, 65)
 	minLevelSlider:SetPosition(1)
 	
 	maxLevelSlider:SetPoint("CENTERLEFT", maxLevelTitle, "CENTERLEFT", offset, -2)
 	maxLevelSlider:SetPoint("RIGHT", rightAnchor, "RIGHT")
-	maxLevelSlider:SetRange(1, 60)
-	maxLevelSlider:SetPosition(60)
+	maxLevelSlider:SetRange(1, 65)
+	maxLevelSlider:SetPosition(65)
 	
 	minRankDropdown:SetPoint("CENTERLEFT", minRankTitle, "CENTERLEFT", offset, 0)
 	minRankDropdown:SetPoint("RIGHT", rightAnchor, "RIGHT")
