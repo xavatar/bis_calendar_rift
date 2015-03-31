@@ -26,6 +26,9 @@ Internal.Definitions = Internal.Definitions or
 local function BuildDefinitions()
 	Internal.Definitions.EventTypes =
 	{
+	
+		
+		
 		[11] = 
 		{
 			name = L["Events/NMT_Raids"],
@@ -52,10 +55,38 @@ local function BuildDefinitions()
 				},
 			}
 		},
+		
+		[14] = 
+		{
+			name = L["Events/NMT_DRR_Title"],
+			order=2,
+			subcategories = 
+			{
+				[0]=
+				{
+					name = L["Events/NMT_DRR_Ladon"],
+					order = 1,
+					icon = { "Rift", "stormcaller_lightning_storm_01_a.dds",},
+				},
+				[1]=
+				{
+					name = L["Events/NMT_DRR_Crawler"],
+					order = 2,
+					icon = { "Rift", "generic_ability_026.dds",},
+				},
+				[3]=
+				{
+					name = L["Events/NMT_DRR_Darkmagic"],
+					order = 3,
+					icon = { "Rift", "generic_ability_026.dds",},
+				},
+			}
+		},
+		
 		[0] =
 		{
 			name = L["Events/Storm Legion Raids"],
-			order = 2,
+			order = 3,
 			subcategories =
 			{
 				[0] =
@@ -105,7 +136,7 @@ local function BuildDefinitions()
 		[9] =
 		{
 			name = L["Events/GROUP_HM_SL_RAIDS"],
-			order = 3,
+			order = 4,
 			subcategories =
 			{
 				[0] =
@@ -125,7 +156,7 @@ local function BuildDefinitions()
 		[12]=
 		{
 			name = L["Events/NMT_TITLE"],
-			order = 4,
+			order = 5,
 			subcategories =
 			{
 				[0] =
@@ -169,7 +200,7 @@ local function BuildDefinitions()
 		[13]=
 		{
 			name = L["Events/EXP_NMT_TITLE"],
-			order = 5,
+			order = 6,
 			subcategories =
 			{
 				[0] =
@@ -213,7 +244,7 @@ local function BuildDefinitions()
 		[1] =
 		{
 			name = L["Events/SL_TITLE"],
-			order = 6,
+			order = 7,
 			subcategories =
 			{
 				[0] =
@@ -269,7 +300,7 @@ local function BuildDefinitions()
 		[2] =
 		{
 			name = L["Events/EXP_SL_TITLE"],
-			order = 7,
+			order = 8,
 			subcategories =
 			{
 				[0] =
@@ -325,7 +356,7 @@ local function BuildDefinitions()
 		[10] =
 		{
 			name = L["Events/GROUP_SL_CHRONICLES"],
-			order = 8,
+			order = 9,
 			subcategories =
 			{
 				[0] =
@@ -369,7 +400,7 @@ local function BuildDefinitions()
 		[3] =
 		{
 			name = L["Events/CHO_TITLE"],
-			order = 9,
+			order = 10,
 			subcategories =
 			{
 				[0] =
@@ -425,7 +456,7 @@ local function BuildDefinitions()
 		[4] =
 		{
 			name = L["Events/CL_TITLE"],
-			order = 10,
+			order = 11,
 			subcategories =
 			{
 				[0] =
@@ -505,7 +536,7 @@ local function BuildDefinitions()
 		[5] =
 		{
 			name = L["Events/EXP_CL_TITLE"],
-			order = 11,
+			order = 12,
 			subcategories =
 			{
 				[0] =
@@ -585,7 +616,7 @@ local function BuildDefinitions()
 		[7] =
 		{
 			name = L["WF/Title"],
-			order = 12,
+			order = 13,
 			subcategories =
 			{
 				[0] =
@@ -653,7 +684,7 @@ local function BuildDefinitions()
 		[8] =
 		{
 			name = L["Events/OTHER_TITLE"],
-			order = 13,
+			order = 14,
 			subcategories =
 			{
 				[0] =
