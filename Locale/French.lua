@@ -158,9 +158,10 @@ Durée: %s
 	["Events/SL_UB"] = "Osserie impie",
 	["Events/Storm Legion Raids"] = "Raids Storm Legion",
 	["Events/Triumph of the Dragon Queen (10 man)"] = "Triomphe de la reine dragon (Raid 10)",
-	["Events/NMT_Raids"] = "Nightmare Tide Raids",
-	["Events/NMT_ROF_10"] = "Rhen of Fate (Raid 10)",
-	["Events/NMT_MS_20"] = "Mount Sharax (Raid 20)",
+	["Events/NMT_Raids"] = "Raids Nightmare Tide",
+	["Events/NMT_ROF_10"] = "Rhen du Destin (Raid 10) T1",
+	["Events/NMT_MS_20"] = "Mont Sharax (Raid 20) T1",
+	["Events/NMT_FT_20"] = "Forge du Tyran (Raid 20) T1",
 	["Events/NMT_DRR_Ladon"] = "DRR: Sea of Ladon (Raid 20)",
 	["Events/NMT_DRR_Crawler"] = "DRR: Plane Crawler Project (Raid 20)",
 	["JoinDialog/AcceptanceAccepted"] = "Accepté",
@@ -242,6 +243,10 @@ Durée: %s
 	["Events/EXP_NMT_COI"] = "Expert: Citadel of Insanity",
 	["Events/EXP_NMT_IT"] = "Expert: Return to Iron Tomb",
 	["Events/EXP_NMT_GM"] = "Expert: Glacial Maw",
+	
+	--30.03.2015
+	["Events/GROUP_HM_SL_RAIDS"] = "Raids Storm Legion Hardmode",
+	["Events/NMT_FT_20"] = "Forge du Tyran (Raid 20) T1",
 }
 
 )
