@@ -1,0 +1,76 @@
+Identifier = "BiSCal"
+Name =
+{
+	English = "BiS Calendar",
+}
+NameShort = "BiSCal"
+Description =
+{
+	English = [[
+BiS Calendar is an ingame guild calendar addon for RIFT that is seemlessly integrated into your existing guild window.
+
+It'll allow your guild to set up events, and optionally post them to the guild wall so those not using it can be aware of incoming events too. Your guildies will be able to see the events, adjusted to their local timezone, and join / leave them at will, indicating which roles they can fulfill.
+
+Whether you're a serious raiding guild, a bunch of bloodthirsty pvpers or just a group of friends having fun together, this addon will help your guild to plan and organize better your group activities.
+]],
+}
+Author = "Odine & Baanano"
+
+Version = "0.5.139"
+
+Email = "baanano.rift@gmail.com"
+Environment = "3.0"
+
+Dependencies =
+{
+	LibAsyncTextures = { "required", "before", },
+	Yague = { "required", "before" },
+	LibString = { "required", "before" },
+	LibGSM = { "required", "before", }
+}
+Embed =
+{
+	Yague = true,
+	LibString = true,
+	LibGSM = true
+}
+SavedVariables =
+{
+	BiSCalAccountSettings = "account",
+	BiSCalUsers = "account",
+}
+RunOnStartup =
+{
+	"Utility.lua",
+	"LoadChain.lua",
+	"Settings.lua",
+	"Localization.lua",
+	"Locale/English.lua",
+	"Locale/French.lua",
+	"Locale/German.lua",
+	"Locale/Russian.lua",
+	"Locale/Korean.lua",
+	"Locale/Spanish.lua",
+	"Definitions.lua",
+	"DefinitionsView.lua",
+	"GSM.lua",
+	"Plugin.lua",
+	"DomainLogic/Rank.lua",
+	"DomainLogic/Roster.lua",
+	"DomainLogic/GuildSettings.lua",
+	"DomainLogic/MemberList.lua",
+	"DomainLogic/EventList.lua",
+	"DomainLogic/Wall.lua",
+	"DomainLogic/ModelView.lua",
+	"DomainLogic/Public.lua",
+	"CustomGridCells.lua",
+	"EventDialog.lua",
+	"BatchAssignDialog.lua",
+	"JoinDialog.lua",
+	"TabControl.lua",
+	"CalendarTab.lua",
+	"SquadsTab.lua",
+	"OptionsTab.lua",
+	"Messaging.lua",
+	"UI.lua",
+}

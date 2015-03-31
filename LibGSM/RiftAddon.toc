@@ -1,0 +1,25 @@
+Identifier = "LibGSM"
+Name =
+{
+	English = "LibGSM",
+}
+NameShort = "LibGSM"
+Description =
+{
+	English = "Provides a façade to Guild Addon Storage",
+}
+Author = "Baanano"
+
+Version = "1.0.2"
+
+Email = "baanano.rift@gmail.com"
+Environment = "2.4"
+
+RunOnStartup =
+{
+	"GSM.lua",
+}
+-- X-Curse-Packaged-Version: v0.5.137 Beta
+-- X-Curse-Project-Name: BiS Calendar
+-- X-Curse-Project-ID: biscal
+-- X-Curse-Repository-ID: rift/biscal/mainline

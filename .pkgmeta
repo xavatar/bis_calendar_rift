@@ -1,0 +1,12 @@
+package-as: BiSCal
+manual-changelog: ChangeLog.txt
+enable-nolib-creation: no
+externals:
+	Yague:
+		url: svn://svn.curseforge.net/rift/yague/mainline/trunk
+	Yague/LibAsyncTextures:
+		git://git.curseforge.net/rift/lib-async-textures/mainline.git
+	LibString:
+		git://git.curseforge.net/rift/libstring/mainline.git
+ignore:
+	- TODO.txt

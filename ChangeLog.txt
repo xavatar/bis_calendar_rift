@@ -1,0 +1,164 @@
+﻿	Beta 0.5.139 (Llien)
+- Added NMT Raids, Rifts and Dungeons
+- Updated to RIFT 3.0
+
+	Beta 0.5.137 (Baanano)
+- Added 1 raid, 4 chronicles and 3 warfronts
+- Updated to RIFT 2.5
+
+	Beta 0.5.136 (Baanano)
+- Fixed error on roster update when joining/leaving a guild
+- Updated Yague embedded version to one that doesn't crash the game!
+- Changed contact email
+
+	Beta 0.5.134 (Baanano)
+- Updated to RIFT 2.4
+- Updated to the new event model
+- Added new events:
+ * Raids: Grim Awakening, Planebreaker Bastion, Infinity Gate
+ * Raid Hardmodes: Frozen Tempest, Endless Eclipse
+ * Dungeons: Realm of Twisted Dreams
+ * Chronicles: Queen's Gambit, Infernal Dawn: Laethys
+ * Warfronts: The Codex
+	
+	Beta 0.5.130 (odine)
+- removed code no longer used
+- fixed some localization typos
+- fixed "nil" entries appearing in chat log when they should not have
+- increased time version checks are made.
+
+	Beta 0.5.129 (odine)
+- more tweaks to the messaging system for addon communication!
+- update french locale.. Thanks for the help!
+
+	Beta 0.5.128 (odine)
+- made a few changes regarding savedvariables. more fixes with the class gathering tool as well
+- also increased the time between version and class checks so you wont get the out of date version notice quite as often (nearly doubled the time between checks)
+
+	Beta 0.5.122 (odine)
+- Fixed bug when version checking sometimes occured more often than it should, also made some minor adjustsments to allow for the below addition!
+- Addon messaging now relays your class throughout guild members, which will only be used to add new features in the new feature.
+
+	Beta 0.5.121 (odine)
+- Testing experimental but safe code to try to get a workaround not being able to get class info from API. its just gathers guildies classes
+- fix a couple spelling typos
+
+	Beta 0.4.119 (Baanano)
+- Events can be restricted by level and/or squad
+- Officers can sign & unsign other members to events
+- Officers can flag members who have joined events as Accepted or Rejected
+- Officers can now assign squads to players who aren't in the guild
+- Officers can now reassign and unassign squads to members, even when they've joined an event
+* PLEASE NOTE ALOT OF CHANGES WENT INTO PLACE, OLD EVENTS WILL NOT BE SEEABLE ANYMORE SO U MAY WANNA RESET EVENTS IN THE MANAGEMENT SECTION (BUT NOT NECCCESSARY)
+
+	Beta 0.3.118 (Odine)
+- removed some older debug print statements
+- added french locale (Thank You, if you want a mention by alias let me know)
+
+	Beta 0.3.117 (Baanano)
+- fixed bug in LibGSM that would sometimes cause related events to not fire
+
+	Beta 0.3.114 (Baanano + odine)
+- fixed bug with memberData
+- added russion locale big thank you goes out to Иван Бакуров for doing the work!!!
+
+	Beta 0.3.106 (odine)
+- Added public access for Events to Public.*
+
+	Beta 0.2.105 (Baanano)
+- Externalized LibGSM
+
+	Beta 0.2.98 (Baanano)
+- Added maintenance screen under the config tab
+- Removed /biscal reset
+
+	Beta 0.2.96 (odine)
+- added crafting rifts to misc section
+- updated english localization for some additional localizations added
+- fixed possible issue that could have been interrupting version checking
+
+	Beta 0.2.94 (Baanano)
+- Plugin loader errors are shown now to ease debugging	
+
+	Beta 0.2.89 (Baanano)
+- Fixed bug that prevented editing / deleting own events when you hadn't the Wall Delete permission
+- Added support for plugins	
+
+	Beta 0.2.82 (Odine)
+- Fixed bug allowing non assigned members to create events, but not delete them (can no longer create an event if unassigned)
+
+	Alpha 0.2.77 (Baanano)
+- Added dirty /biscal reset command so guilds can uninstall BiSCal stuff from their guild storage.	
+
+	Alpha 0.1.72 (Baanano)
+- Finished Guild storage monitor, and applied to files using guild storage
+- Fixed bug that posted event descriptions to the Wall even when the event couldn't be created
+- Updated Spanish localization
+
+	Alpha 0.1.70 (Baanano)
+- Started Guild storage monitor (not yet completed)
+
+	Alpha 0.1.65 (odine)
+- Guild options will be "greyed out" if you are not an officer making it obvious you cant modify anything in that area
+
+	Alpha 0.1.64 (Baanano)
+- Made selected rows on datagrids brighter
+- Fixed bug that prevented SquadID 44 from being assigned
+- Reworked event categories and subcategories sorting so new ones can be added on top when new content is released without disrupting old events
+
+	Alpha 0.1.62 (Baanano)
+- Added "Batch assign" and "Reset squad" features under the Squads tab.
+
+	Alpha 0.6.56 (Baanano + odine)
+- added standby, join, and decline options to squad signups (baanano)
+- finished localization on all rift events (all thats left localization wise ATM is the squad stuff ill finish that ASAP)
+- removed need for SafesUnitLib. VersionCheck.lua is completely self sufficient!
+
+	Alpha 0.6.30 (odine)
+- added announce to general counsel that addon is loaded and also displays version
+- some minor adjustments to tweak version check code
+
+	Alpha 0.6.29 (odine)
+- added version checking system to make other users of this addon aware there version maybe out of date (functional but not completed)
+- added a 4th version to .toc Version =.. last one will be for revision which we will base off our svn revisions. this helps with the version checking system
+- added Modules folder, this is more than likely temporary, but the way the versioncheck works currently it needs to be its own addon (again temporary. gimme slack nitpicker ;))
+- much optimization needed still.. considering dropping it as a module, getting revision via cf instead.. but it works for the time being.. ill continue to fix throughout today!
+
+
+	Alpha 0.0.6 (Baanano + odine)
+- Whole addon is localization ready, except event types
+- Extracted event definitions to a separate file and added squads and themes
+- Update list of event types available. All chocolate rift events should be listed. Still need to add All dungeons though!
+- Added guild settings manager
+- Guild options frame
+ * Option to post events to wall or not
+ * Option to limit storage usage
+ * Squad icons can be configured
+ - WIP but should be functional version check in place with localization already done for it. it needs to be a recoded a bit but almost done.
+ - Added Storm Legion Expert Dungeon events (will replace icons soon)
+ - Added compression & smaller dataformat
+ - Added standby + decline options (not added to the interface yet)
+	
+	Alpha 0.0.5 (Baanano)
+- Extracted dialogs & custom grid cells from CalendarTab to separate files
+- Players can now modify/delete their own events even when they don't have the Wall Delete permission	
+- The whole Calendar Tab is localization ready
+	
+	Alpha 0.0.4 (Baanano)
+- Moved ScrollableText & Calendar controls to Yague
+- The Calendar now uses clock / first weekday / language settings
+
+	Alpha 0.0.3 (Baanano)
+- Added support for localization
+- Option to change language and to set whether the week starts on Monday or Sunday (not fully implemented yet)
+- The addon now tracks level and officer notes for guildies
+- Added partial Spanish localization
+
+	Alpha 0.0.2 (odine)
+- Config tab
+- Option to use a 12 hours or a 24 hours clock (not fully implemented yet)
+- Added more squad icons and event types
+- Fixed the assign dropdown so it doesn't unfold behind the grid
+	
+	Alpha 0.0.1 (Baanano)
+- First version
