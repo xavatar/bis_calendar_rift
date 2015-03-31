@@ -94,7 +94,7 @@ local function EventPopup(parent)
 			start.hour = hourDropdown:GetSelectedValue()
 			start.min = minuteDropdown:GetSelectedValue()
 			start.sec = 0
-			local start = DateFormatter((Internal.AccountSettings.Use24Time and L["EventDialog/HourFormat24"] or L["EventDialog/HourFormat12"]) .. " ", OTime(start))
+			local start = DateFormatter((Internal.AccountSettings.Use24Time and L["EventDialog/HourFormat24"] or L["EventDialog/HourFormat12"]) .. "", OTime(start))
 			
 			local duration = DurationFormatter(durationDropdown:GetSelectedValue())
 			
