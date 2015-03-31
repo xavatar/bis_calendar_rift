@@ -44,6 +44,12 @@ local function BuildDefinitions()
 					order = 2,
 					icon = { "Rift", "generic_ability_026.dds",},
 				},
+				[3]=
+				{
+					name = L["Events/NMT_FT_20"],
+					order = 3,
+					icon = { "Rift", "generic_ability_026.dds",},
+				},
 			}
 		},
 		[0] =
