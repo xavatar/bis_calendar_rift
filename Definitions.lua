@@ -51,7 +51,7 @@ local function BuildDefinitions()
 				{
 					name = L["Events/NMT_FT_20"],
 					order = 3,
-					icon = { "Rift", "generic_ability_026.dds",},
+					icon = { "Rift", "caustic_artifact.dds",},
 				},
 			}
 		},
