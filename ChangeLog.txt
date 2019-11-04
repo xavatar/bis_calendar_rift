@@ -1,4 +1,4 @@
-﻿	Beta 0.5.139 (Llien)
+﻿	Beta 0.5.139 (Llien) Tatar
 - Added NMT Raids, Rifts and Dungeons
 - Updated to RIFT 3.0
 
